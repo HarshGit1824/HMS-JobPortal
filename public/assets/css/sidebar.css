@@ -1,0 +1,78 @@
+.sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: #5a80e9;
+    color: #fff;
+    position: fixed;
+    top: 74.5px; /* Adjusted top value */
+    left: 0;
+    overflow-y: auto; /* Make sidebar scrollable */
+    padding-top: 0px; /* Reduced padding-top */
+    max-height: calc(100% - 73px); /* Set max height to fill remaining space and ensure it doesn't overlap with the footer */
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 1px;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block; /* Ensures each link takes the full width of its parent li */
+    text-align: left; /* Align text to the left */
+    padding: 10px; /* Add padding to create space */
+}
+
+.sidebar ul li a.button {
+    border-radius: 5px;
+    background-color: #5a80e9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.sidebar ul li a:hover {
+    background-color: #0039d6;
+}
+
+.sidebar ul li a i {
+    margin-right: 10px; /* Add some spacing between icon and text */
+}
+
+.container1 {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.container1 h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.container1 p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.container1 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.container1 ul li {
+    margin-bottom: 10px;
+}
+
+.container1 ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.container1 ul li a:hover {
+    text-decoration: underline;
+}
